@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Schedule</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="flex flex-center">
+    <div class="container">
+        <div class="container--highlight">
+            <header class="container__header">
+                <div class="container__head flex flex-between">
+                    <p id="status">Status</p>
+                    <p id="datetime">Datetime</p>
+                </div>
+            </header>
+            <section class="card">
+                <header class="card__header">
+                    <span class="card__code">1004 GEELECT</span>
+                    <span class="card__time">5:30pm-8:30pm</span>
+                </header>
+                <section class="card__content">
+                    <div class="card__head">GE Elective 1 FIL1</div>
+                    <div class="card__subhead">Filipino</div>
+                </section>                         
+                <footer class="card__footer">
+                    <a class="card__link" href="">www.zoom.link.com</a>
+                </footer>
+            </section>
+            <footer>
+
+            </footer>
+        </div>
+        <div class="container--table-view">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Mo</th>
+                        <th>Tu</th>
+                        <th>We</th>
+                        <th>Th</th>
+                        <th>Fr</th>
+                        <th>Sa</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="table__elements element element--color1">
+                            <a href="#element_geelect">GEELECT</a>
+                        </td>
+                        <td class="table__elements element element--color2">
+                            <a href="#element_se">BCS313K</a>
+                        </td>
+                        <td class="table__elements element element--color3">
+                            <a href="#element_auto">BCS315K</a>
+                        </td>
+                        <td class="table__elements element element--color4">
+                            <a href="#element_quan">BCS314K</a>
+                        </td>
+                        <td class="table__elements element element--color5">
+                            <a href="#element_net">BCS311K</a>
+                        </td>
+                        <td class="table__elements element element--color6">
+                            <a href="#element_dig">BCS316K</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table__elements empty_element"></td>
+                        <td class="table__elements element element--color7">
+                            <a href="#element_web">BCS312K</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container--list-view">
+            <ul class="cards">
+                <li>
+                    <header class="cards-item__header">MONDAY</header>
+                    <section class="schedules">
+                        <ul>
+                            <li id="element_geelect">
+                                <div class="card element--color1" data-day="1" data-startTime="17:30" data-endTime="20:30" data-color="#6f69ac">
+                                    <header class="card__header">
+                                        <span class="card__code">1004 GEELECT</span>
+                                        <span class="card__time">5:30pm-8:30pm</span>
+                                    </header>
+                                    <section class="card__content">
+                                        <div class="card__head">GE Elective 1 FIL1</div>
+                                        <div class="card__subhead">Filipino</div>
+                                    </section>                         
+                                    <footer class="card__footer">
+                                        <a class="card__link" href="">www.zoom.link.com</a>
+                                    </footer>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </li>
+                <li>
+                    <header class="cards-item__header">TUESDAY</header>
+                    <section class="schedules">
+                        <ul>
+                            <li id="element_se">
+                                <div class="card element--color2" data-day="2" data-startTime="14:00" data-endTime="16:00" data-color="#f55c47">
+                                    <header class="card__header">
+                                        <span class="card__code">3038 BCS313K</span>
+                                        <span class="card__time">2:00pm-4:00pm</span>
+                                    </header>
+                                    <section class="card__content">
+                                        <div class="card__head">Software Engineering 1</div>
+                                        <div class="card__subhead">A introduction to Software Engineering</div>
+                                    </section>                   
+                                    <footer class="card__footer">
+                                        <a class="card__link" href="">www.zoom.link.com</a>
+                                    </footer>      
+                                </div>
+                            </li>
+                            <li id="element_web">
+                                <div class="card element--color7 " data-day="3" data-startTime="16:00" data-endTime="18:00" data-color="#3d84b8">
+                                    <header class="card__header">
+                                        <span class="card__code">3036 BCS312K</span>
+                                        <span class="card__time">4:00pm-6:00pm</span>
+                                    </header>
+                                    <section class="card__content">
+                                        <div class="card__head">Web Development</div>
+                                    </section>
+                                    <footer class="card__footer">
+                                        <a class="card__link" href="">www.zoom.link.com</a>
+                                    </footer>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </li>
+                <li>
+                    <header class="cards-item__header">WEDNESDAY</header>
+                    <section class="schedules">
+                        <ul>
+                            <li id="element_auto">
+                                <div class="card element--color3" data-day="4" data-startTime="17:30" data-endTime="19:30" data-color="#519872">
+                                    <header class="card__header">
+                                        <span class="card__code">3041 BCS315K</span>
+                                        <span class="card__time">5:30pm-7:30pm</span>
+                                    </header>
+                                    <section class="card__content">
+                                        <div class="card__head">Autocard mata Theory andal Languages</div>
+                                    </section>                         
+                                    <footer class="card__footer">
+                                        <a class="card__link" href="">www.zoom.link.com</a>
+                                    </footer>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </li>
+                <li>
+                    <header class="cards-item__header">THURSDAY</header>
+                    <section class="schedules">
+                        <ul>
+                            <li id="element_quan">
+                                <div class="card element--color4" data-day="5" data-startTime="17:30" data-endTime="19:30"  data-color="#f4abc4">
+                                    <header class="card__header">
+                                        <span class="card__code">3040 BCS314K</span>
+                                        <span class="card__time">5:30pm-7:30pm</span>
+                                    </header>
+                                    <section class="card__content">
+                                        <div class="card__head">Quantitative Methods</div>
+                                        <div class="card__subhead">Including Modeling And Simulation</div>
+                                    </section>
+                                    <footer class="card__footer">
+                                        <a class="card__link" href="">www.zoom.link.com</a>
+                                    </footer>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </li>
+                <li>
+                    <header class="cards-item__header">FRIDAY</header>
+                    <section class="schedules">
+                        <ul>
+                            <li id="element_net">
+                                <div class="card element--color5" data-day="6" data-startTime="17:30" data-endTime="19:30" data-color="#978d58">
+                                    <header class="card__header">
+                                        <span class="card__code">3034 BCS311K</span>
+                                        <span class="card__time">5:30pm-7:30pm</span>
+                                    </header>
+                                    <section class="card__content">
+                                        <div class="card__head">Networking and Commincations</div>
+                                    </section>                         
+                                    <footer class="card__footer">
+                                        <a class="card__link" href="">www.zoom.link.com</a>
+                                    </footer>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </li>
+                <li>
+                    <header class="cards-item__header">SATURDAY</header>
+                    <section class="schedules">
+                        <ul>
+                            <li id="element_dig">
+                                <div class="card element--color6" data-day="5" data-startTime="15:00" data-endTime="17:00" data-color="#393e46">
+                                    <header class="card__header">
+                                        <span class="card__code">3042 BCS316K</span>
+                                        <span class="card__time">3:00pm-5:00pm</span>
+                                    </header>
+                                    <section class="card__content">
+                                        <div class="card__head">Digital Logic</div>
+                                    </section>                         
+                                    <footer class="card__footer">
+                                        <a class="card__link" href="">www.zoom.link.com</a>
+                                    </footer>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
